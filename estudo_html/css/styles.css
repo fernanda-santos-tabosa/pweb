@@ -1,0 +1,81 @@
+/* RESET */
+html,
+body,
+header,
+main,
+footer,
+article,
+div,
+span,
+p,
+a,
+figure,
+img,
+small,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+    padding: 2rem;
+    font-size: 16px;
+}
+
+.container .course-description.first-item a h2 {
+    margin: inherit;
+    padding: 1.5rem 1rem;
+}
+
+.container .course-description.first-item a h2:hover{
+    background-color: #b1b1b19a;
+}
+
+.container .course-description.first-item p {
+    margin: 1rem 0;
+}
+
+.course.second-item,
+.course.second-item .course-title {
+    display: flex;
+    align-items: center;
+}
+
+.course.second-item .course-title{
+    height: 5rem;
+}
+
+.course.second-item h2 {
+    display: inline-block;
+    margin: 0;
+
+}
+
+.course.second-item a img {
+    height: 2rem;
+    margin-left: 1rem;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.course.second-item a img:hover {
+    background-color: #b1b1b19a;
+}
+
+.course.second-item .course-img img{
+    height: 10rem;
+    padding: 2rem;
+}
+
+table {
+    margin: 0 auto;
+    padding: 2rem;
+}
+.table-img {
+    height: 10rem;
+    border-radius: 5%;
+}
