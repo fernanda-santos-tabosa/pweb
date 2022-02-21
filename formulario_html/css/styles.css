@@ -1,0 +1,39 @@
+/* RESET */
+html,
+body,
+header,
+main,
+footer,
+article,
+div,
+span,
+p,
+a,
+figure,
+img,
+small,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form fieldset textarea {
+    height: 60px;
+    width: 98%;
+    display: block;
+}

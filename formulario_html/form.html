@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+    <title>Formulário Pets</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="name">Nome:</label>
+            <input type="text" id="name"/>
+        </fieldset>
+
+        <fieldset>
+            <input type="radio" value="dog" name="pet" id="dog-radio"/>
+            <img src="https://img.icons8.com/external-justicon-lineal-justicon/64/000000/external-dog-dog-and-cat-justicon-lineal-justicon-1.png"/>
+            <label for="dog-radio">Cachorro</label>
+            
+            <input type="radio" value="cat" name="pet" id="cat-radio"/>
+            <img src="https://img.icons8.com/external-justicon-lineal-justicon/64/000000/external-cat-dog-and-cat-justicon-lineal-justicon.png"/>
+            <label for="cat-radio">Gato</label>
+            
+            <input type="radio" value="rabbit" name="pet" id="rabbit-radio"/>
+            <img src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/000000/external-rabbit-animal-faces-icongeek26-outline-icongeek26.png"/>        
+            <label for="rabbit-radio">Coelho</label>
+            
+            <input type="radio" value="guinea" name="pet" id="guinea-radio"/>
+            <img src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/000000/external-guinea-pig-peru-icongeek26-outline-icongeek26.png"/>        
+            <label for="guinea-radio">Porquinho da Índia</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="choice-answer">Motivo da escolha:</label>
+            <textarea id="choice-answer"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <input type="submit" />
+        </fieldset>
+    </form>
+</body>
+</html>
