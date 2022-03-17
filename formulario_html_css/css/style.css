@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #e4e4e4;
+}
+
+section {
+  height: 800px;
+}
+
+.banner {
+  background: url('../img/flag.jpg') center/cover no-repeat;
+}
+
+.first {
+  background: url('../img/bogota.jpeg') center/cover no-repeat;
+}
+
+.second {
+  background: url('../img/peso-colombiano.jpg') center/cover no-repeat;
+}
+
+.third {
+  background: url('../img/bogota2.jpg') center/cover no-repeat;
+}
+
+.fourth {
+  background: url('../img/patacones.webp') center/cover no-repeat;
+}
+
+.banner-title {
+  padding-left: 60%;
+  padding-top: 50%;
+}
+
+.question {
+  height: 100%;
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+.fourth .question div {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth .question div input {
+  height: 2em;
+}
+
+.fourth .question div textarea {
+  height: 4em;
+}

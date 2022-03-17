@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+  <title>Quiz Colombia</title>
+</head>
+
+<body>
+  <form>
+    <section class="banner">
+      <div class="banner-title">
+        <h1>Quiz Colombia</h1>
+        <p>
+          Você conhece tudo sobre a Colômbia? 
+          Então responda esse quiz!
+        </p>
+      </div>
+    </section>
+
+    <section class="first">
+      <div class="question">
+        <label for="language">Qual o idioma oficial da Colômbia?</label>
+        
+        <div>
+          <label for="portugues">Português</label>
+          <input type="radio" value="portugues" name="language" value="portugues" id="portugues">          
+        </div>
+        <div>
+          <label for="ingles">Inglês</label>
+          <input type="radio" value="ingles" name="language" value="ingles" id="ingles">
+        </div>
+        <div>
+          <label for="espanhol">Espanhol</label>
+          <input type="radio" value="espanhol" name="language" value="espanhol" id="espanhol">
+        </div>        
+      </div>
+    </section>
+
+    <section class="second">
+      <div class="question">
+        <label for="currency">Qual a moeda da Colômbia?</label>
+        <div>
+          <label for="peso-colombiano">Peso Colombiano</label>
+          <input type="radio" value="peso-colombiano" name="currency" value="peso-colombiano" id="peso-colombiano">
+        </div>
+        <div>
+          <label for="real-colombiano">Real Colombiano</label>
+          <input type="radio" value="real-colombiano" name="currency" value="real-colombiano" id="real-colombiano">
+        </div>
+        <div>
+          <label for="dolar-colombiano">Dólar Colombiano</label>
+          <input type="radio" value="dolar-colombiano" name="currency" value="dolar-colombiano" id="dolar-colombiano">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="third">
+      <div class="question">
+        <label for="capital">Qual a capital da Colômbia?</label>
+        <div>
+          <label for="brasilia">Brasília</label>
+          <input type="radio" value="brasilia" name="capital" value="brasilia" id="brasilia">
+        </div>
+        <div>
+          <label for="bogota">Bogotá</label>
+          <input type="radio" value="bogota" name="capital" value="bogota" id="bogota">
+        </div>
+        <div>
+          <label for="quito">Quito</label>
+          <input type="radio" value="quito" name="capital" value="quito" id="quito">
+        </div>
+      </div>
+    </section>
+      
+    <section class="fourth">
+      <div class="question">
+        <div>
+          <label for="cups">Quantas copas a Colômbia venceu?</label>
+          <input type="number" id="copas" />
+        </div>
+      
+        <div>
+          <label for="food">Qual destes é um prato típico da Colômbia?</label>
+          <select id="food">
+            <option value="patacones">Patacones</option>
+            <option value="guacamole">Guacamole</option>
+            <option value="vatapa" >Vatapá</option>
+          </select>
+        </div>
+      
+        <div>
+          <label for="feedback">Qual sua opinião sobre o quiz?</label>
+          <textarea placeholder="Escreva sua opinião" name="feedback" id="feedback"></textarea>
+        </div>
+    </section>
+  </form>
+</body>
+</html>
