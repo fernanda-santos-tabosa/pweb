@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #e4e4e4;
+}
+
+section {
+  height: 800px;
+}
+
+/* BANNER */
+.banner {
+  background: url('../img/flag.jpg') center/cover no-repeat;
+}
+
+.banner-title {
+  padding-left: 55%;
+  padding-top: 45%;
+}
+
+/* SECTIONS */
+.first {
+  background: url('../img/bogota.jpeg') center/cover no-repeat;
+}
+
+.second {
+  background: url('../img/peso-colombiano.jpg') center/cover no-repeat;
+}
+
+.third {
+  background: url('../img/bogota2.jpg') center/cover no-repeat;
+}
+
+.fourth {
+  background: url('../img/patacones.webp') center/cover no-repeat;
+}
+
+/* QUESTION */
+.question {
+  height: 100%;
+  gap: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+.question div input[type="radio"] {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+/* FOURTH SECTION QUESTION */
+.fourth .question div {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth .question div label {
+ margin: 0.5em 0;
+}
+
+.fourth .question div input {
+  height: 2em;
+}
+
+.fourth .question div select,
+.fourth .question div select option::selection {
+  height: 3em;
+}
+
+.fourth .question div textarea {
+  height: 4em;
+}
+
+.fourth .question div input,
+.fourth .question div select,
+.fourth .question div textarea {
+  padding: 0.5em 1em; 
+  border-radius: 1em;
+}
+
+.fourth button {
+  padding: 0.5em 2em;
+}
